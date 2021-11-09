@@ -1,5 +1,7 @@
 # Required packages
 
+Note: Install packages before copying dotfile. Don't forget to `chsh -s /usr/bin/zsh`
+
 ## Oh My Zsh
 
 ```shell
