@@ -4,7 +4,8 @@ sudo apt install -y \
 vim \
 zsh \
 htop \
-neofetch
+neofetch \
+git
 
 sudo apt install software-properties-common -y
 sudo add-apt-repository --yes --update ppa:ansible/ansible
