@@ -2,7 +2,7 @@
 
 ## General Information
 
-* **Operating System**: Windows 10 21H1 + WSL2 (Ubuntu 21.04 Hirsute)
+* **Operating System**: Windows 10 21H2 + WSL2 (Ubuntu 21.04 Hirsute)
 * **Shell**: zsh (+ oh-my-zsh)
 * **Applications**:
   * **Terminal**: Windows Terminal
