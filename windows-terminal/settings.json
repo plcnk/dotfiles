@@ -50,6 +50,7 @@
                 "name": "Invite de commandes"
             },
             {
+                "bellStyle": "none",
                 "colorScheme": "One Half Dark",
                 "font": 
                 {
