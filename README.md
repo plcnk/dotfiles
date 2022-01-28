@@ -2,7 +2,7 @@
 
 ## General Information
 
-* **Operating System**: Windows 10 21H2 + WSL2 (Ubuntu 21.04 Hirsute)
+* **Operating System**: Windows 10 21H2 + WSL2 (Debian 11 Bullseye)
 * **Shell**: zsh (+ oh-my-zsh)
 * **Applications**:
   * **Terminal**: Windows Terminal
