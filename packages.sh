@@ -1,7 +1,9 @@
 #!/bin/bash
 
+# Launch script as root
+
 # Install basic packages
-sudo apt install -y \
+apt install -y \
 vim \
 zsh \
 htop \
@@ -12,13 +14,14 @@ software-properties-common \
 gnupg
 
 # Install Ansible (Debian uses the same source as Ubuntu)
-sudo echo "deb http://ppa.launchpad.net/ansible/ansible/ubuntu focal main" > /etc/apt/sources.list.d/ansible.list # Using Ubuntu Focal source for Debian Bullseye
-sudo apt update
-sudo apt install ansible -y
+echo "deb http://ppa.launchpad.net/ansible/ansible/ubuntu focal main" > /etc/apt/sources.list.d/ansible.list
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 93C4A3FD7BB9C367
+apt update
+apt install ansible -y
 
 # Install Terraform & Vault
-curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
-sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
-sudo apt update
-sudo apt install terraform -y
-sudo apt install vault
+curl -fsSL https://apt.releases.hashicorp.com/gpg | apt-key add -
+apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+apt update
+apt install terraform -y
+apt install vault
