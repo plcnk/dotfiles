@@ -15,5 +15,3 @@ You first need to install Homebrew:
 ```
 
 Then install the packages with `brew bundle --file Brewfile`.
-
-test
