@@ -12,8 +12,8 @@
 
 ### macOS
 
-* **Operating System**: macOS 12.5 Monterey
+* **Operating System**: macOS 13.4 Ventura
 * **Shell**: zsh (+ oh-my-zsh)
 * **Applications**:
   * **Terminal**: iTerm
-  * **Editor**: VSCodium
+  * **Editor**: Visual Studio Code
