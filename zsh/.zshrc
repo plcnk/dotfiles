@@ -11,7 +11,6 @@ export GPG_TTY=$(tty)
 export ZSH_POWER_LEVEL_THEME=/usr/share/zsh-theme-powerlevel10k
 
 source $ZSH_POWER_LEVEL_THEME/powerlevel10k.zsh-theme
-#ZSH_THEME="bira"
 
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-autosuggestions sudo zsh-syntax-highlighting)
