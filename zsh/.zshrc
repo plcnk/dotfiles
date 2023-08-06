@@ -7,6 +7,9 @@ fi
 
 
 export ZSH=$HOME/.oh-my-zsh
+export HISTFILE=~/.zsh_history
+export HISTSIZE=999999999
+export SAVEHIST=$HISTSIZE
 export GPG_TTY=$(tty)
 export ZSH_POWER_LEVEL_THEME=/usr/share/zsh-theme-powerlevel10k
 
