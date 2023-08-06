@@ -16,11 +16,13 @@ source $ZSH_POWER_LEVEL_THEME/powerlevel10k.zsh-theme
 plugins=(git zsh-autosuggestions sudo zsh-syntax-highlighting)
 
 # Aliases
+alias p="sudo pacman"
 alias pacup="sudo pacman -Syu"
 alias pacin="sudo pacman -S"
 alias pacer="sudo pacman -R"
 alias pacso="sudo pacman -Ss"
 alias pacsi="sudo pacman -Qs"
+alias y="yay"
 alias yayup="yay -Syu"
 alias yayin="yay -S"
 alias yayer="yay -R"
