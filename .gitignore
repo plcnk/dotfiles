@@ -7,5 +7,6 @@
 !/.config/htop/*
 !/.config/kitty/*
 !/.config/neofetch/*
+!/.config/picom/*
 !/.config/ranger/*
 !README.md
