@@ -1,0 +1,11 @@
+*
+!.gitignore
+!.p10k.zsh
+!.xinitrc
+!.zprofile
+!.zshrc
+!/.config/htop/*
+!/.config/kitty/*
+!/.config/neofetch/*
+!/.config/ranger/*
+!README.md
