@@ -26,11 +26,19 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 
-## Theme picker for terminal
+## Terminal themes
 
 ```shell
 git clone https://github.com/Gogh-Co/Gogh.git
 ```
 
 After cloning, cd into the `installs` directory and run the script you want.
+
+## Neofetch themes
+
+```shell
+git clone https://github.com/Chick2D/neofetch-themes.git
+```
+
+After cloning, copy the config file you want into `~/.config/neofetch/config.conf`
 
