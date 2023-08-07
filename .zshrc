@@ -5,7 +5,6 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-
 export ZSH=$HOME/.oh-my-zsh
 export HISTFILE=~/.zsh_history
 export HISTSIZE=999999999
@@ -39,5 +38,12 @@ alias lls="exa -l -1"
 alias llm="ls -lah --git --sort=modified"
 alias llt="ls --tree --level=2"
 
+# Run neofetch on first terminal
+LIVE_COUNTER=$(ps a | awk '{print $2}' | grep -vi "tty*" | uniq | wc -l);
+if [ $LIVE_COUNTER -eq 1 ]; then
+     neofetch
+fi
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
