@@ -39,4 +39,5 @@ fi
 setxkbmap -layout fr
 picom &
 ./.fehbg
+exec slstatus &
 exec dwm 
