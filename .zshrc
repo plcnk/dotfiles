@@ -32,5 +32,11 @@ alias yayer="yay -R"
 
 source $ZSH/oh-my-zsh.sh
 
+alias ls="exa"
+alias lss="exa -1"
+alias ll="exa -lah --git"
+alias lls="exa -la -1"
+alias llm="exa -lah --git --sort=modified"
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
