@@ -42,7 +42,7 @@ alias llt="ls --tree --level=2"
 # Run neofetch on first terminal
 LIVE_COUNTER=$(ps a | awk '{print $2}' | grep -vi "tty*" | uniq | wc -l);
 if [ $LIVE_COUNTER -eq 1 ]; then
-     neofetch
+    neofetch
 fi
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
